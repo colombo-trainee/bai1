@@ -2,6 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
 }
 .wrapper{
 	font-family: 'Roboto', sans-serif;
@@ -151,8 +152,8 @@ body{
 	color: #8a8a8a;
 }
 .content-left .text{
+	font-weight: 0;
 	margin: 25px 0;
-	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 }
 .content-left .right li{
@@ -199,6 +200,7 @@ body{
 }
 .content-right ul li div{
 	margin-left: 50px;
+
 }
 .content-right ul li div a{
 	text-decoration: none;
@@ -218,7 +220,7 @@ body{
 }
 
 .footer .company{
-	padding: 20px 190px; 
+	padding: 20px 180px; 
 }
 .company img{
 	margin: 0 5px
@@ -227,6 +229,8 @@ body{
 	background-image: url("images/background-footer.png"); 
 	background-repeat: repeat-x; 
 	height: 300px; 
+}
+.footer-content{
 	padding-top: 55px;
 }
 .footer1 .left{
@@ -245,6 +249,9 @@ body{
 	display: inline; 
 	margin-right:15px;
 	color: #c5c5c5;
+}
+.infor-1 span{
+	font-size: 13px;
 }
 .footer1 .left .infor-2{
 	padding: 0; 
